@@ -1,0 +1,14 @@
+package newyeargift;
+
+abstract class NewYearGift //class to sort the chocolates and sweets according to their prices and weights
+   {
+   	public abstract void bsort(String arr[], int price[], double weight[]); //to sort
+   	public void show(String arr[], int price[], double weight[]) //to display
+   	{
+   		
+   	}
+   	public void rshow(String arr[], int price[], double weight[], int myrange) // to show items within range
+   	{
+   		
+   	}
+   }

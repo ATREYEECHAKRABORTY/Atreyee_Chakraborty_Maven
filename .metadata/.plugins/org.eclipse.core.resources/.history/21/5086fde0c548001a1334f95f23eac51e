@@ -1,0 +1,34 @@
+package newyeargift;
+
+public class Sweet implements NewYearGift
+{
+    int weight;int price;
+    public Sweet(int weight,int price)
+    {
+    	this.weight = weight;
+    	this.price = price;
+    }
+    public Sweet() {
+		// TODO Auto-generated constructor stub
+	}
+	public int getWeight()
+    {
+    	return weight;
+    }
+    public int getPrice()
+    {
+    	return price;
+    }
+	public void bsort(String[] sarr, int[] sprice, double[] sweight) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void rshow(String[] sarr, int[] sprice, double[] sweight, int myrange3) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void show(String[] sarr, int[] sprice, double[] sweight) {
+		// TODO Auto-generated method stub
+		
+	}
+}

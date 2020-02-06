@@ -1,0 +1,17 @@
+package newyeargift;
+
+public class Laddu extends Sweet implements NewYearGift
+{
+   Laddu(int weight,int price)
+   {
+	   super(weight,price);
+   }
+   public int getWeight()
+   {
+	   return this.getWeight();
+   }
+   public int getPrice()
+   {
+	   return this.getPrice();
+   }
+}

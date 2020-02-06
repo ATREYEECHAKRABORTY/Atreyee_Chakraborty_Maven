@@ -1,0 +1,17 @@
+package newyeargift;
+
+public class Lollipop extends Chocolate implements NewYearGift
+{
+   Lollipop(int weight,int price)
+   {
+	   super(weight,price);
+   }
+   public int getWeight()
+   {
+	   return this.getWeight();
+   }
+   public int getPrice()
+   {
+	   return this.getPrice();
+   }
+}
